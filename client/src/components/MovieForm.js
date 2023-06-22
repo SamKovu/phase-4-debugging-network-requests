@@ -36,6 +36,7 @@ function MovieForm() {
       ...formData,
       [e.target.id]: value,
     });
+    console.log(value)
   }
 
   return (
